@@ -1,0 +1,23 @@
+{
+  "name": "node-jwt-demo",
+  "version": "1.0.0",
+  "description": "JWT implemented in NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "engines": {
+    "node": "6.6.0"
+  },
+  "keywords": [],
+  "author": "Alejandro Pavon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0"
+  }
+}
